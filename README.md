@@ -23,7 +23,7 @@ component: command: id: [arguments...]
 
 _Except compressor as it has only one command so it is omitted_
 
-###Commands: (As of 25/5/16 - 12:56)
+####Commands: (As of 25/5/16 - 12:56)
 _-> means program to robot_
 
 _<- means robot to program_
@@ -55,6 +55,7 @@ _<- means robot to program_
 
 <- AnalogInput:Val:(int id):(double value)
 
+Example: Victor:New:0:4:false
 
 Licence
 -------
